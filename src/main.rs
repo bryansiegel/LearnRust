@@ -16,16 +16,25 @@ fn main() {
     //
     // println!("{:?}", tup);
 
-let x: (i32, f64, u8) = (500, 6.4, 1);
+    // let x: (i32, f64, u8) = (500, 6.4, 1);
+    //
+    // let five_hundred = x.0;
+    //
+    // let six_point_four = x.1;
+    //
+    // let one = x.2;
+    //
+    // println!("{one}");
+    // println!("{five_hundred}");
+    // println!("{six_point_four}");
 
-    let five_hundred = x.0;
+    let a = [1,2,3,4,5,6];
 
-    let six_point_four = x.1;
+    let b = [3; 5];
 
-    let one = x.2;
+    let first = a[0];
+    let b_first = b[0];
 
-    println!("{one}");
-    println!("{five_hundred}");
-    println!("{six_point_four}");
-
+    println!("{first}");
+    println!("{b_first}");
 }
